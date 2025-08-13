@@ -15,7 +15,7 @@ namespace StockAnalysisAgent
     {
         private static readonly HttpClient httpClient = new HttpClient();
         private static readonly string outputDirectory = @"C:\Users\somnathghosh\Music\investment";
-        private static readonly string geminiApiKey = "AIzaSyCvaqXrKO2PfzcH6lbxTmcrLJuFjrXaifE"; // Replace with your actual API key
+        private static readonly string geminiApiKey = ""; // Replace with your actual API key
         private static readonly string processedStocksFile = Path.Combine(outputDirectory, "processed-stocks.txt");
 
         static async Task Main(string[] args)
